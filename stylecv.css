@@ -1,0 +1,310 @@
+body
+{ background: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+.container
+{
+	position: relative;
+	width: 100%;
+	max-width: 1000px;
+	min-height: 1000px;
+	background: #fff;
+	margin: 50px;
+	display: grid;
+	grid-template-columns: 1fr 1.5fr;
+	box-shadow: 0 35px 55px rgba(0,0,0,1.2);
+}
+.container .left_Side
+{
+	position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.profiletext
+{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.profiletext h2
+{
+	columns: #fff;
+	font-size: 1.5em,
+	margin-top:20px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	line-height: 1.4em;
+	color: #F3DED8;
+}
+.profiletext h3
+{
+	columns: #fff;
+	font-size: 1em,
+	margin-top:20px;
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: 600;
+	line-height: 1.4em;
+	color: black;
+}
+.objInfo
+{
+	padding-top: 40px;
+}
+.objInfo .title
+{
+	position: relative;
+	columns: black;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	font-size:1em;
+	margin-left: 15px;
+}
+.objInfo ul li
+{
+	position: relative;
+	list-style: none;
+	margin: 10px 0;
+    cursor: pointer;
+}
+.contactInfo
+{
+	padding-top: 5px;
+}
+.contactInfo .title
+{
+	position: relative;
+	columns: black;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+
+.contactInfo ul li
+{
+	position: relative;
+	list-style: none;
+	margin: 10px 0;
+    cursor: pointer;
+}
+.contactInfo ul li .icon
+{
+	display: inline;
+	width: 30px;
+	font-size: 18px;
+	color:#F3DED8;
+}
+.contactInfo ul li span
+{
+	color: black;
+	font-weight: 300;
+}
+.Address
+{
+	padding-top: 5px;
+}
+.Address.title
+{
+	position: relative;
+	columns: black;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+.Address ul
+{
+	position: relative;
+	list-style: none;
+	margin: 10px 0;
+    cursor: pointer;
+}
+.Address ul li
+{
+	position: relative;
+	list-style: none;
+	margin: 10px 0;
+    cursor: pointer;
+}
+.Address ul li .icon
+{
+	display: inline;
+	width: 30px;
+	font-size: 18px;
+	color:#F3DED8;
+}
+.Address ul li span
+{
+	color: black;
+	font-weight: 300;
+}
+.PersonalInfo
+{
+	padding-top: 5px;
+}
+.PersonalInfo.title
+{
+	position: relative;
+	columns: black;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+.PersonalInfo ul
+{
+	position: relative;
+	list-style: none;
+	margin: 10px 0;
+    cursor: pointer;
+    text-align: left;
+}
+.PersonalInfo ul li span
+{
+	color: black;
+	font-weight: 300;
+}
+.hobbiesInfo 
+{
+	padding-top: 5px;
+}
+.hobbiesInfo .title
+{
+	position: relative;
+	columns: black;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+.hobbiesInfo ul
+{
+	position: relative;
+	margin: 10px 0;
+    cursor: pointer;
+}
+.hobbiesInfo  ul li span
+{
+	color: black;
+	font-weight: 300;
+	text-align: left;
+}
+.container .right_Side
+{
+	position: relative;
+    background: #F3DED8;
+    padding: 40px;
+}
+.skillinfo
+{
+	padding-top: 5px;
+}
+.languagesInfo
+{
+	padding-top: 5px;
+}
+.languagesInfo.title
+{
+	position: relative;
+	columns: black;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+.languagesInfo ul span
+{
+	position: relative;
+	margin: 10px 0;
+    cursor: pointer;
+    list-style: none;
+}
+.skillinfo .title
+{
+	position: relative;
+	columns: black;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.skillinfo ul
+{
+	position: relative;
+	margin: 10px 0;
+    cursor: pointer;
+}
+.skillinfo  ul li span
+{
+	color: black;
+	font-weight: 300;
+	text-align: left;
+}
+.educationinfo li
+{
+margin-bottom: 15px;
+}
+.educationinfo h5
+{
+	color: #fff;
+	font-size: 20px;
+	list-style: none;
+
+}
+.educationinfo h4
+{
+ color:black;
+ font-weight: 500;
+}
+.experienceinfo .title
+{
+	position: relative;
+	columns: black;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.experienceinfo ul
+{
+	color: black;
+	font-weight: 300;
+	text-align: left;
+	list-style: none;
+}
+.Achivmentsinfo .title
+{
+	position: relative;
+	columns: black;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+.Achivmentsinfo ul
+{
+	color: black;
+	font-weight: 300;
+	text-align: left;
+	list-style: none;
+}
